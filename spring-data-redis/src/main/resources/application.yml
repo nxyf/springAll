@@ -1,0 +1,10 @@
+# springboot 所有配置类 org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+# 都会有一个自动配置类 RedisAutoConfiguration，自动配置类都会绑定一个properties配置文件 RedisProperties
+server:
+  port: 8088
+spring:
+  application:
+    name: redisApplication
+  redis:
+    host: 192.168.253.128
+    port: 6379
